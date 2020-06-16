@@ -19,6 +19,44 @@ or
 yarn create react-app %PROJECT_NAME% --template master
 ```
 
+## Features
+
+- Context _(components/Context.js)_
+- Router _(components/Router.js)_
+- Error 404 page _(components/NotFound.js)_
+- tracking with google analytics _(you have to change the tracking code in helpers/analytics.js)_
+
+## Dependencies
+
+- react-ga _(Google Analytics)_
+- react-router-dom _(for multiple routes)_
+- styled-components _(allows you to write actual CSS code to style your components)_
+
+## Structure
+
+```
+[your-app-name]/
+  package.json
+  public/
+    favicon.ico
+    index.html
+    logo192.png
+    logo512.png
+    manifest.json
+    robots.txt
+  src/
+    components/
+      Context.js
+      Home.js
+      NotFound.js
+      Router.js
+    helpers/
+      analytics.js
+    App.js
+    index.js
+  .gitignore
+```
+
 ---
 
 ## License
