@@ -1,6 +1,6 @@
 {
   "name": "cra-template-master",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for Create React App",
   "author": "Peter R. Stuhlmann",
   "main": "template.json",
